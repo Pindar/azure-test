@@ -1,4 +1,5 @@
 var database = require('./database.js');
+var azure = require('azure-storage');
 var express = require('express');
 var app = express();
 
