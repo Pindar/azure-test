@@ -24,6 +24,7 @@
   "onevar": false,
   "nomen": false,
   "globals": {
-    "console": true    
+    "console": true,
+    "process": true
   }
 }
