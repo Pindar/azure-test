@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.post('/insert', function (req, res) {
+app.get('/insert', function (req, res) {
   var entGen = azure.TableUtilities.entityGenerator;
   var entity = {
     PartitionKey: entGen.String('datapoints'),
