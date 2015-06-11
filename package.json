@@ -1,0 +1,6 @@
+{
+  "name": "azure-test",
+  "dependencies": {
+    "azure-storage": "^0.4.5"
+  }
+}
